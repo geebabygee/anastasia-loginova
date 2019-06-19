@@ -1,0 +1,32 @@
+    
+<div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+  <%= link_to "Lloginova", '/index.html', class: "navbar-brand" %>
+</div>
+<h2>The Cabbage</h2>
+<div class="m-p-g">
+  <div class="m-p-g__thumbs" data-google-image-layout data-max-height="350">
+    <h2>Cabbage The Movie</h2>
+    <%= image_tag "movie1.png", class:"m-p-g__thumbs-img", width: 600;%>
+    <%= image_tag "movie3.png", class:"m-p-g__thumbs-img", width: 500;%>
+    <%= image_tag "movie2.png", class:"m-p-g__thumbs-img", width: 500;%>
+    <h2>Cabbagehead Elodie</h2>
+    <%= image_tag "elodie1.jpg", class:"m-p-g__thumbs-img", width: 700;%>
+    <%= image_tag "elodie2.jpg", class:"m-p-g__thumbs-img", width: 500;%>
+    <%= image_tag "elodie3.jpg", class:"m-p-g__thumbs-img", width: 600;%>
+    <%= image_tag "elodie4.jpg", class:"m-p-g__thumbs-img", width: 500;%>
+    <h2>The Cabbagehead is Present_NEST</h2>
+    <%= image_tag "nest1.jpg", class:"m-p-g__thumbs-img", width: 700;%>
+    <%= image_tag "nest3.jpg", class:"m-p-g__thumbs-img", width: 600;%>
+    <%= image_tag "nest4.jpg", class:"m-p-g__thumbs-img", width: 500;%>
+    <h2>Tolstoy Cabbage</h2>
+    <%= image_tag "tolstoy1.jpg", class:"m-p-g__thumbs-img", width: 600;%>
+    <%= image_tag "tolstoy2.jpg", class:"m-p-g__thumbs-img", width: 500;%>
+  </div>
+  <div class="m-p-g__fullscreen"></div>
+</div>
+<script>
+  var elem = document.querySelector('.m-p-g');
+      document.addEventListener('DOMContentLoaded', function() {
+        var gallery = new MaterialPhtoGallery(elem);
+      });
+</script>
