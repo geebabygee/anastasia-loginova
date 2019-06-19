@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'middleman', '~> 4.2'
 gem 'middleman-autoprefixer', '~> 2.7'
 gem 'middleman-sprockets', '~> 4.0'
-gem 'middleman-deploy', git: 'https://github.com/lewagon/middleman-deploy.git'
+gem 'middleman-deploy', github: 'middleman-contrib/middleman-deploy', branch: 'master'
 gem 'pry-byebug', require: true
 gem 'sass-rails'
 # Assets

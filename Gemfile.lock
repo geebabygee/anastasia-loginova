@@ -1,6 +1,7 @@
 GIT
-  remote: https://github.com/lewagon/middleman-deploy.git
-  revision: 4f97af2034d6e7548a172d89a2a37fc263c6c987
+  remote: git://github.com/middleman-contrib/middleman-deploy.git
+  revision: 4d04b550b4c6888265d83ee9689f41e29dbae535
+  branch: master
   specs:
     middleman-deploy (2.0.0.pre.alpha)
       middleman-core (>= 3.2)
