@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Use the title from a page's frontmatter if it has one -->
+    <title></title>
+    <link href="stylesheets/application-b579e158.css" rel="stylesheet" />
+    <script src="javascripts/application-9e47502f.js"></script>
+    <link href="images/images/favicon.png" rel="icon" type="image/png" />
+
+
+
+  </head>
+  <body>
+    <div class="text-center center">
+  <audio id="testAudio" hidden src="images/audio.mp4" type="audio/mpeg">
+  </audio>
+  <button id="playAudio">Play</button>
+</div>
+<script>
+  document.getElementById("playAudio").addEventListener("click", function(){
+  var audio = document.getElementById('testAudio');
+  if(this.className == 'is-playing'){
+    this.className = "";
+    this.innerHTML = "Play"
+    audio.pause();
+  }else{
+    this.className = "is-playing";
+    this.innerHTML = "Pause";
+    audio.play();
+  }
+  
+  });
+</script>
+<style>
+  .center {
+      width: 100px;
+  height: 100px;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  
+  margin: auto;
+  }
+</style>
+
+  </body>
+</html>
